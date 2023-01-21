@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>ChatBot</title>
+</head>
+<body>
+    <section id="sec-1">
+        <label for="name-box" >Enter Your Name</label>
+        <br>
+        <input name="name" class="name-input inputs" type="text">
+        <br>
+        <p style="color: red;" class="name-notice-1 hidden">Name should have atleast two characters</p>
+        <p style="color: red;" class="name-notice-2 hidden ">Name should be word</p>
+        <label for="email-box">Please enter your email</label>
+        <br>
+        <input name="email" class="email-input inputs" type="text">
+        <br>
+        <p style="color: red;" class="email-notice hidden">Please check you email and try again!!</p>
+        <label for="p-box">Password</label>
+        <br>
+        <input  name="Password" class="pass-input inputs" type="text">
+        <br>
+        <p style="color: red;" class="p-notice-1 hidden">Passwords should have at least 1 capital letter, 1 small, 1 number and 1 special characters</p>
+        <p style="color: red;" class="p-notice-2 hidden">password cannot be the same as name or email.</p>
+        <label for="cp-box">Confirm Password</label>
+        <br>
+        <input name="cpassword" class="cpass-input" type="text">
+        <br>
+        <p style="color: red;" class="cp-notice hidden">Password and confirm password should be the same.</p>
+        <button id="signup-btn">Sign Up</button>
+    </section>
+    <section class="sec-2">
+        <p class="empty hidden">Please fill the required fields and try again!!</p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
